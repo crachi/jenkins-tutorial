@@ -1,5 +1,5 @@
 FROM python:3.8
-MAINTAINER Anderson Jo
+MAINTAINER crachi
 USER root
 ENV PYTHONUNBUFFERED=True
 ENV APP_HOME=/app
