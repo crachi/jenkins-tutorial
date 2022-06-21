@@ -1,4 +1,4 @@
-EGION = 'ap-northeast-2'
+LEGION = 'ap-northeast-2'
 EKS_API = 'https://40F6DACE850732B53832FA60E222CE17.gr7.ap-northeast-2.eks.amazonaws.com'
 EKS_CLUSTER_NAME='Jenkins-EKS-Cluster'
 KS_NAMESPACE='default'
@@ -37,5 +37,5 @@ sh "aws eks --region ${REGION} update-kubeconfig --name ${EKS_CLUSTER_NAME}"
 sh "kubectl apply -f output.yaml"
 sh "rm output.yaml"
 }
-    }
-}
+	}
+} 
